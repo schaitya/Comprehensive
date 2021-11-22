@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.comprehensive.utilities.Listeners" />
+	</listeners>
+	<test thread-count="10" name="Test">
+		<classes>
+			<class name="com.comprehensive.testCases.Homepage_TC"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test1">
+		<classes>
+			<class name="com.comprehensive.testCases.LoginTest"></class>
+		</classes>
+	</test>
+	<test thread-count="10" name="Test2">
+		<classes>
+			<class name="com.comprehensive.testCases.Hoveraction_TC"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test3">
+		<classes>
+			<class name="com.comprehensive.testCases.SearchAction_TC"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test4">
+		<classes>
+			<class name="com.comprehensive.testCases.CartCheckout_TC"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test5">
+		<classes>
+			<class name="com.comprehensive.testCases.FeedBack"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test6">
+		<classes>
+			<class name="com.comprehensive.testCases.GiftCardCheckout"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test7">
+		<classes>
+			<class name="com.comprehensive.testCases.Wishlistpage_TC"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test8">
+		<classes>
+			<class name="com.comprehensive.testCases.HeaderLink_TC"></class>
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Test9">
+		<classes>
+			<class name="com.comprehensive.testCases.AllproductTab_TC"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="10" name="Test10">
+		<classes>
+			<class name="com.comprehensive.testCases.RegisterationTest"></class>
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->
